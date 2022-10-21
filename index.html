@@ -1,41 +1,115 @@
 <!doctype html>
- <head>
+
+<head>
   <meta charset="UTF-8">
   <style type="text/css">
-   body{margin:0 auto;width:550px;
-background-image: url(123.jpeg);
-background-size: 100%;}
-   h1{font-size:3em;text-align:center;}
-   p{font-size:2em;
-   color:black;
-  text-align:center}
-  p1{
-    font-size: 1.5em;
-    color:black;
-    text-align:center;
-  }
-  body.div{
-    height: 2em;
-    width: 100%;
-  }
-   span{color:blue;font-size:2em;}
-   input{font-size:2em;}
+    #content {
+      position: absolute;
+      top: 10px;
+      right:1px;
+      transform: translate(-50%);
+    }
+
+    body {
+      margin: 0 auto;
+      width: 500px;
+      background-image: url(123.jpeg);
+      background-repeat: no-repeat;
+      background-position: center center;
+      background-size: 100% 100%;
+      background-attachment: fixed;
+    }
+
+    h1 {
+      font-size: 3em;
+      text-align: center;
+    }
+
+    p {
+      font-size: 2em;
+      color: black;
+      text-align: center
+    }
+
+    p1 {
+      font-size: 1.5em;
+      color: black;
+      text-align: center;
+    }
+
+    h2 {
+      text-align: center;
+    }
+
+    span {
+      color: blue;
+      font-size: 2em;
+    }
+
+    input {
+      font-size: 2em;
+    }
+
+    .audio {
+      text-align: center;
+      line-height: 10;
+    }
+    #QR{
+      text-align: left;
+      width:10;
+    }
   </style>
   <title>我的主页</title>
- </head>
- <audio src="./小孩子的时光.mp3" controls></audio><br/>
- <body>
-  <div> <a href="work/work-01.html" target="_blank">第一次作业</a></div>
-  <a href="https://www.taobao.com/" target="_blank">点击进入淘宝网站</a><br/>
-  <a href="https://www.bilibili.com/" target="_blank">点击进入二次元</a>
-   <p>
-   欢迎来到我的主页
-   </p>
-   <p1>
-    页面正在设计中 敬请期待.......
-   </p1>
-   <h1>
-    感谢预览。
-   </h1>
- </body>
+</head>
+
+<body>
+
+  <div id="content">
+    <img src="124.jpg" title="哈哈哈哈" width="100" height="50" /><br />
+    <a href="https://www.taobao.com/" target="_blank">点击进入淘宝网站</a><br />
+    <a href="https://www.bilibili.com/" target="_blank">点击进入二次元</a><br />
+    <a href="java基础.zip">java学习ppt</a>
+  </div>
+  <p>
+    欢迎来到我的主页
+  </p>
+  <form>
+    <table align="right" border="1" width="500" cellpadding="20" cellspacing="0">
+      <tr>
+        <td><a href="work/work-01.html" target="_blank">第一次作业</a></td>
+        <td><a href="work/work-02.html" target="_blank">第二次作业</a></td>
+        <td><a href="#" target="_blank">第三次作业</a></td>
+        <td><a href="#" target="_blank">第四次作业</a></td>
+      </tr>
+      <tr>
+        <td><a href="#" target="_blank">第五次作业</a></td>
+        <td><a href="#" target="_blank">第六次作业</a></td>
+        <td><a href="#" target="_blank">第七次作业</a></td>
+        <td><a href="#" target="_blank">第八次作业</a></td>
+      </tr>
+      <tr>
+        <td><a href="#" target="_blank">第九次作业</a></td>
+        <td><a href="#" target="_blank">第十次作业</a></td>
+        <td><a href="#" target="_blank">第十一次作业</a></td>
+        <td><a href="#" target="_blank">第十二次作业</a></td>
+      </tr>
+      <tr>
+        <td><a href="#" target="_blank">第十三次作业</a></td>
+        <td><a href="#" target="_blank">第十四次作业</a></td>
+        <td><a href="#" target="_blank">第十五次作业</a></td>
+        <td><a href="#" target="_blank">第十六次作业</a></td>
+      </tr>
+    </table>
+  </form>
+  <span>
+    <img src="二维码.png" alt="二维码" width="100px">
+  </span>
+  <span>
+    <img src="粉色头发.jpg" alt="大头贴" title="你要的大头贴" width="500">
+    <a href="粉色头发.zip"> 点击下载此图片</a>
+  </span>
+  <div class="audio">
+    <audio src="./小孩子的时光.mp3" controls></audio><br />
+  </div>
+</body>
 </html>
